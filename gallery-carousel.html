@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery Carousel</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: auto;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto !important;
+        }
+
+        .swiper-slide img {
+            width: auto;
+            height: 350px;
+            object-fit: cover;
+            object-position: center;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            --swiper-navigation-size: 24px !important;
+            color: #666 !important;
+            position: absolute;
+            z-index: 1;
+            padding: 10px;
+            cursor: pointer;
+            outline: none;
+        }
+
+
+        .slick-prev {
+            left: 10px;
+            transform: translateY(-50%);
+        }
+
+        .slick-next {
+            right: 10px;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/Luana-21-1-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/38-Cayman-Drive-009-1-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/DSC04094.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/DSC08214-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/FINAL-06-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/FINAL-13-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-29-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-51-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-63-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-9-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-58-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-64-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/temp_image_for_default_share-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/F19499B0-771E-4495-9846-338A077BF0C5-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/FINAL-13-2-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/Luana-19-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/Luana-20-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/Luana-36-1-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/Luana-50-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/MaybreeEstate-House-29-1-scaled.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/38-Cayman-Drive-122-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/38-Cayman-Drive-019-1-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/38-Cayman-Drive-010-1-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/38-Cayman-Drive-010-2-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/60C18A84-B1AB-474A-9BDA-A1E8523781B6-scaled.jpeg" />
+            </div>
+            <div class="swiper-slide">
+                <img
+                    src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/DJI_20231209141013_0012_D.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/DSC08191-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="https://inspiredpaintingdecorating.com.au/wp-content/uploads/2024/12/DSC08214-2.jpg" />
+            </div>
+        </div>
+
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            spaceBetween: 10,
+            slidesPerGroup: 1,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3,
+                },
+                600: {
+                    slidesPerView: 2,
+                },
+                480: {
+                    slidesPerView: 1,
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
